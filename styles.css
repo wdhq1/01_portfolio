@@ -18,12 +18,12 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #DD6031;
 }
 
 /* Section Styles */
 
-.main-nav {
+.menu {
   width: 100%;
   background: #4B644A;
   min-height: 30px;
@@ -52,7 +52,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #DD6031
 }
 
 header {
@@ -69,10 +69,10 @@ header .profile-image {
   margin-top: 5px;
   width: 200px;
   height: 200px;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2) rotate(5deg);
 }
 .tag {
   background-color: #032B43;
@@ -86,7 +86,7 @@ header .profile-image:hover {
   background-color: #4B644A;
   color: #DD6031;
 }
-.card {
+.text {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 600px;
@@ -96,7 +96,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.text:hover {
   border-color: #4B644A;
 }
 
